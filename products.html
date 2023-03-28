@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
     />
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <header id="header" class="header">
 
       <div class="home-child"></div>
@@ -31,6 +31,21 @@
       <div class="events"><a id="event-header" class="newpage" href="events.html">Events</a></div>
       <div class="support"><a id="support-header" class="newpage" href="support.html">Support</a></div>
       <div class="contact"><a id="contact-header" class="newpage" href="contact.html">Contact</a></div>
+      <div class="mobile-dropdown"><button id="more" class="more"><span>More &#x25BC;</span></button></div>
+      <div id="dropdown" class="dropdown">
+        <ul class="menu">
+          <li><a class="footer-link" href="index.html">Home</a></li>
+          <li><a class="footer-link" href="profile.html">Profile</a></li>
+          <li><a class="footer-link" href="products.html">Products & Services</a></li>
+          <li><a class="footer-link" href="experience.html">Experiences</a></li>
+          <li><a class="footer-link" href="clients.html">Clients & Partners</a></li>
+          <li><a class="footer-link" href="events.html">Events</a></li>
+          <li><a class="footer-link" href="support.html">Support</a></li>
+          <li><a class="footer-link" href="contact.html">Contact</a></li>
+        </ul>
+
+      </div>
+
       <img
         class="wbk-logo-1-icon"
         alt=""
@@ -221,3 +236,4 @@
   </body>
 </html>
 <script src="modal_product.js"></script>
+<script src="header_dropdown.js"></script>

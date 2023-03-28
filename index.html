@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css"/>
 
     <link
       rel="stylesheet"
@@ -18,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
     />
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <div class="page">
       <div class="header">
 
@@ -32,6 +33,21 @@
         <div class="events"><a id="event-header" class="newpage" href="events.html">Events</a></div>
         <div class="support"><a id="support-header" class="newpage" href="support.html">Support</a></div>
         <div class="contact"><a id="contact-header" class="newpage" href="contact.html">Contact</a></div>
+        <div class="mobile-dropdown"><button id="more" class="more"><span>More &#x25BC;</span></button></div>
+        <div id="dropdown" class="dropdown">
+          <ul class="menu">
+            <li><a class="footer-link" href="index.html">Home</a></li>
+            <li><a class="footer-link" href="profile.html">Profile</a></li>
+            <li><a class="footer-link" href="products.html">Products & Services</a></li>
+            <li><a class="footer-link" href="experience.html">Experiences</a></li>
+            <li><a class="footer-link" href="clients.html">Clients & Partners</a></li>
+            <li><a class="footer-link" href="events.html">Events</a></li>
+            <li><a class="footer-link" href="support.html">Support</a></li>
+            <li><a class="footer-link" href="contact.html">Contact</a></li>
+          </ul>
+  
+        </div>
+
         <img
           class="wbk-logo-1-icon"
           alt=""
@@ -62,47 +78,55 @@
         Our mission is bringing our strength to achieve your goal and
         satisfaction
       </div>
-      <div class="footcontainer-normal">
-        <div class="footer-about">
-          <strong>About us</strong>
-          <br><br>
-          <a id="footer-profile" class="footer-link" href="profile.html">Profile</a>
-          <br><br>
-          <a id="footer-product" class="footer-link" href="products.html">Products & Services</a>
-          <br><br>
-          <a id="footer-client" class="footer-link" href="clients.html">Clients & Partners</a>
-        </div>
-        <div class="footer-portfolio">
-          <strong>Our Portfolio</strong>
-          <br><br>
-          <a id="footer-exp" class="footer-link" href="experience.html">Experiences</a>
-          <br><br>
-          <a id="footer-event" class="footer-link" href="events.html">Events</a>
-        </div>
-        <div class="footer-support">
-            <strong>Support</strong>
-            <br><br>
-            <a id="footer-support" class="footer-link" href="support.html">Support</a>
-        </div>
-        <div class="footer-contact">
-          <strong>Contact</strong>
-          <br><br>
-          <a>
-            PT Warna Bintang Kreasi
-            <br>
-            Jl. Let. Jend. Soepeno 34
-            <br>
-            Arteri-Permata Hijau
-            <br>
-            Jakarta 12210 
-            <br><br>
-            (+6221) 53664835-37
-            <br>
-            sales@warna-bintang.co.id
-          </a>
-        </div>
-        <img class="footer-logo" src="public/wbklogo-large.png"/>
+      <div class="subtitle-mobile-home">
+        Our mission is bringing our strength to <br>achieve your goal and
+        satisfaction
       </div>
+      <footer class="mt-auto">
+        <div class="footcontainer-normal">
+          <div class="footer-about">
+            <strong>About us</strong>
+            <br><br>
+            <a id="footer-profile" class="footer-link" href="profile.html">Profile</a>
+            <br><br>
+            <a id="footer-product" class="footer-link" href="products.html">Products & Services</a>
+            <br><br>
+            <a id="footer-client" class="footer-link" href="clients.html">Clients & Partners</a>
+          </div>
+          <div class="footer-portfolio">
+            <strong>Our Portfolio</strong>
+            <br><br>
+            <a id="footer-exp" class="footer-link" href="experience.html">Experiences</a>
+            <br><br>
+            <a id="footer-event" class="footer-link" href="events.html">Events</a>
+          </div>
+          <div class="footer-support">
+              <strong>Support</strong>
+              <br><br>
+              <a id="footer-support" class="footer-link" href="support.html">Support</a>
+          </div>
+          <div class="footer-contact">
+            <strong>Contact</strong>
+            <br><br>
+            <a>
+              PT Warna Bintang Kreasi
+              <br>
+              Jl. Let. Jend. Soepeno 34
+              <br>
+              Arteri-Permata Hijau
+              <br>
+              Jakarta 12210 
+              <br><br>
+              (+6221) 53664835-37
+              <br>
+              sales@warna-bintang.co.id
+            </a>
+          </div>
+          <img class="footer-logo" src="public/wbklogo-large.png"/>
+        </div>
+      </footer>
+      
     </div>
   </body>
 </html>
+<script src="header_dropdown.js"></script>

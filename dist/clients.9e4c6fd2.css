@@ -238,6 +238,7 @@ body {
 }
 
 .title-support {
+  color: navy;
   top: 262px;
   left: 125px;
 }
@@ -731,14 +732,9 @@ span.timeline-content {
 
 .map {
   align-items: left;
-  height: 375px;
-  width: 500px;
-  border: 1px gray;
-  border-radius: 20px;
   position: absolute;
-  top: 202px;
-  right: 200px;
-  box-shadow: 2px 2px 5px #ccc;
+  top: 300px;
+  right: 550px;
 }
 
 .profile-ITAward, .profile-bestperformance {

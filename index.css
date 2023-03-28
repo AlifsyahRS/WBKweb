@@ -3,7 +3,8 @@
 body {
   margin: 0;
   line-height: normal;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   align-content:space-between;
   flex-direction:column;
   min-height:100vh;
@@ -22,15 +23,19 @@ body {
   opacity: 1;
 }
 
+
+
 .background-fill {
-  position: absolute;
+  position: relative;
   top: 105px;
   left: 0;
   width: 100%;
-  height: 610px;
+  height: 710px;
   object-fit: cover;
   opacity: 1;
 }
+
+
 
 .half-background {
   position: absolute;
@@ -38,16 +43,12 @@ body {
   left:0;
   width:45%;
   height: 610px;
-  background-color: #3ea5bc;
+  background-color: #a8d3ff;
   border: 50px #5570FF;
   opacity: 0.4;
 }
 
-.background-1 {
-  top: 104px;
-  height: 355px;
-  opacity: 1;
-}
+
 .background-1,
 .home-child,
 .home-item {
@@ -55,6 +56,14 @@ body {
   left: 0;
   width: 100%;
 }
+
+.background-1 {
+  position: relative;
+  top: 104px;
+  height: 355px;
+  opacity: 1;
+}
+
 .home-child {
   top: 0;
   background-color: rgba(221, 234, 255, 0.8);
@@ -150,6 +159,9 @@ body {
   width: 100px;
 }
 
+.mobile-dropdown{
+  display: none
+}
 
 
 .wbk-logo-1-icon {
@@ -254,6 +266,7 @@ body {
 .title, .title-support, .title-home {
   position: absolute;
   left: 63px;
+  right: 63px;
   color: #1D1D1D;
   text-align: left;
   display: flex;
@@ -261,22 +274,21 @@ body {
 }
 .title, .title-support, .title-home {
   top: 152px;
-  font-size: 24px;
-  font-weight: 600;
-  width: 519px;
+  font-size: 32px;
+  font-weight: bolder;
   height: 61px;
 }
 
 .title-home {
   font-size: 40px;
   top: 282px;
-  width:900px;
   color: #ffffff;
 }
 
 .title-support {
   top: 262px;
   left: 125px;
+  color:#000080;
 }
 
 .our-mission-is {
@@ -292,14 +304,11 @@ body {
 .page {
   position: relative;
   width: 100%;
-  min-height:100%;
   text-align: center;
   font-size: var(--font-size-base);
   font-family: var(--font-open-sans);
   background-color: #ffffff;
 
-  grid-row-start: 1;
-  grid-row-end:2;
 }
 
 .title-profile, .title-clients, .title-experience {
@@ -312,8 +321,8 @@ body {
 }
 .title-profile, .title-clients, .title-experience {
   top: 152px;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: bolder;
   width: 519px;
   height: 61px;
 }
@@ -333,8 +342,8 @@ body {
 }
 .title-product {
   top: 152px;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: bolder;
   width: 519px;
   height: 61px;
 }
@@ -343,7 +352,7 @@ body {
 .subtitle, .support-login, .subtitle-home {
   position: absolute;
   font-size:15px;
-  width: 1000px;
+  width: 100%;
   height: 94px;
   top: 230px;
   left:63px;
@@ -362,6 +371,8 @@ body {
   top: 383px;
   font-size: 24px;
   color:#ffffff;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .contact-content {
@@ -375,7 +386,7 @@ body {
 
 .support-copyright {
   position: absolute;
-  top: 470px;
+  top: 480px;
   left: 125px;
   font-size: 12px;
   color: #1D1D1D;
@@ -415,7 +426,7 @@ body {
 
 .subtitle-product {
   position: absolute;
-  font-size:15px;
+  font-size:20px;
   width: 1200px;
   height: 94px;
   top: 220px;
@@ -679,7 +690,7 @@ body {
 
 .timeline-2005, .timeline-2006, .timeline-2007, .timeline-2008, .timeline-2009, .timeline-2010, .timeline-2011, .timeline-2012, .timeline-2013, .timeline-2014, .timeline-2015, .timeline-2016, .timeline-2017, .timeline-2018, .timeline-2020 {
   position: absolute;
-  width:500px;
+  width:400px;
   text-align: justify;
 }
 
@@ -698,59 +709,59 @@ body {
 }
 
 .timeline-2006 {
-  top: 140px;
+  top: 215px;
 }
 
 .timeline-2007{
-  top: 240px;
+  top: 400px;
 }
 
 .timeline-2008 {
-  top: 355px;
+  top: 585px;
 }
 
 .timeline-2009 {
-  top: 455px;
+  top: 770px;
 }
 
 .timeline-2010 {
-  top: 580px;
+  top: 955px;
 }
 
 .timeline-2011 {
-  top:685px;
+  top:1140px;
 }
 
 .timeline-2012{
-  top:770px;
+  top:1325px;
 }
 
 .timeline-2013 {
-  top:885px;
+  top:1510px;
 }
 
 .timeline-2014 {
-  top:1000px;
+  top:1695px;
 }
 
 .timeline-2015 {
-  top:1115px;
+  top:1880px;
 }
 
 .timeline-2016 {
-  top: 1185px;
+  top: 2065px;
 }
 
 .timeline-2017 {
-  top: 1345px;
+  top: 2250px;
 }
 
 .timeline-2018 {
-  top:1430px;
+  top:2435px;
 }
 
 .timeline-2020 {
-  top:1550px;
+  top:2620px;
 }
 
 b.timeline-title {
@@ -768,7 +779,7 @@ span.timeline-content {
   top: 50px;
   background-color: #a3ffc2;
   width:13px;
-  height: 1540px;
+  height: 2600px;
   align-items:center;
 
 }
@@ -792,14 +803,9 @@ span.timeline-content {
 
 .map {
   position:absolute;
-  top: 202px;
-  right: 200px;
+  top: 220px;
+  right: 250px;
   align-items:left;
-  height:375px;
-  width:500px;
-  border: 1px gray;
-  border-radius: 20px;
-  box-shadow: 2px 2px 5px #ccc;
 }
 
 .profile-ITAward, .profile-bestperformance {
@@ -864,12 +870,9 @@ strong.product-head {
   width: 100%;
   left: 0;
   background-color: #DDEAFF;
-  flex-shrink:0;
 }
 
-.footcontainer-normal {
-  top:715px;
-}
+
 
 .footcontainer-client {
   top: 1550px;
@@ -877,14 +880,13 @@ strong.product-head {
 
 
 .footcontainer-product{
-  top: 2500px;
-  grid-row-start:2;
-  grid-row-end:3;
+  top: 2700px;
+
 }
 
 .footcontainer-profile {
   position:absolute;
-  top:3000px
+  top:3900px
 }
 
 .footcontainer-exp {
@@ -893,7 +895,7 @@ strong.product-head {
 
 .footcontainer-event {
   position:absolute;
-  top: 9200px;
+  top: 9600px;
   display: flex;
   justify-content:flex-start;
 }
@@ -996,7 +998,7 @@ a.sub-head {
 
 img.event-img, img.event-img-left, img.event-img-right {
   position:relative;
-  width:269px;
+  width:300px;
   height:auto;
   object-fit:cover;
   opacity:1;
@@ -1253,7 +1255,7 @@ img.event-img-2 {
 
 .clients-content {
   position:absolute;
-  top: 465px;
+  top: 445px;
   font-size: 22px;
   text-align: center;
   left: 63px;
@@ -1268,12 +1270,9 @@ img.event-img-2 {
   min-width:100px;
   object-fit:fill;
   opacity: 1;
-  cursor: pointer;
 }
 
-.clients-img:hover {
-  opacity: 0.7;
-}
+
 
 .maxava-background {
   width:430px; 
@@ -1283,9 +1282,7 @@ img.event-img-2 {
   background-color:#5F9EA0;
 }
 
-.maxava-background:hover {
-  opacity: 0.8;
-}
+.subtitle-mobile-home{display:none}
 
 #mcore, #wincore, #wincore-framework, #banner1, #banner2, #banner3, #banner4 {
   border: 2px #32E57A;
@@ -1304,24 +1301,246 @@ img.event-img-2 {
 }
 
 
-#home-header:hover, #event-header:hover, #footer-event:hover {
+#home-header:hover, #event-header:hover, #footer-event:hover, #home-dd:hover, #event-dd:hover {
   color:#3ea5bc;
 }
 
 
-#profile-header:hover, #footer-profile:hover {
+#profile-header:hover, #footer-profile:hover, #profile-dd:hover {
   color:#32E57A;
 }
 
-#product-header:hover, #support-header:hover, #footer-product:hover, #footer-support:hover {
+#product-header:hover, #support-header:hover, #footer-product:hover, #footer-support:hover, #product-dd:hover, #support-dd:hover {
   color: 	#FFFF00;
 }
 
-#exp-header:hover, #contact-header:hover, #footer-exp:hover {
+#exp-header:hover, #contact-header:hover, #footer-exp:hover, #exp-dd:hover, #contact-dd:hover {
   color: #FFA500;
 }
 
-#client-header:hover, #footer-client:hover {
+#client-header:hover, #footer-client:hover, #client-dd:hover {
   color: #8B008B;
 }
+
+.dropdown {
+  display: none;
+}
+.title-mobile {display:none}
+
+.atm-image {
+  width: 500px;
+  height: 278px;
+}
+
+.profile-timeline-container{
+  position: relative; 
+  display:inline-block;
+  text-align:center;
+}
+
+@media only screen and (max-width:480px){
+  body {
+    overflow-x: hidden;
+  }
+  .page {
+    position: relative;
+    width: 480px;
+    text-align: center;
+    font-size: var(--font-size-base);
+    font-family: var(--font-open-sans);
+    background-color: #ffffff;
+  }
+  .background-fill {
+    position: relative;
+    top: 105px;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    opacity: 1;
+  }
+
+  .experiences, .partnership, .events, .support, .contact {
+    display: none;
+  }
+
+  .mobile-dropdown{
+    display: flex;
+    position: absolute;
+    top: 80.5px;
+    left: 307px;
+    cursor: pointer;
+  }
+
+  .more {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size:12px;
+    font-weight: normal;
+  }
+
+  .dropdown {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 104px;
+    width: 100%;
+    height: 380px;
+    background-color:rgba(221, 234, 255);
+    text-align: left;
+    opacity: 1;
+
+  }
+  .menu {
+    position: absolute;
+    top: 25px;
+    list-style: none;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  ul.menu li {
+    margin-bottom: 20px;
+    color:#1D1010;
+  }
+
+  .title-home {
+    top: 322px;
+    left:40px;
+    right: 40px;
+    font-size: 30px;
+  }
+  .title-profile {
+    top: 200px;
+    font-size: 30px;
+  }
+  .title-product {
+    top: 151px;
+    font-size: 30px;
+    left: 40px;
+  }
+  .subtitle-product{
+    left: 40px;
+    top: 211px;
+    font-size: 18px;
+    text-align: left
+  }
+
+  .subtitle-home {display: none}
+  .subtitle-mobile-home {
+    display: flex;
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    font-size: 18px;
+    top: 432px;
+    color: #FFFFFF;
+    text-align: left;
+  }
+  .parent{
+    display: none;
+  }
+
+  .learn-more-about-us {
+    font-size: 15px;
+  }
+  .learn-more-about-us-wrapper {
+    left: 40px;
+    top: 542px;
+  }
+
+  .profile-content {
+    left: 40px;
+    right: 70px;
+  }
+
+  .atm-image {
+    width: 350px;
+    height: 194.6px;
+  }
+  .cntr-mobile {
+    text-align: center;
+  }
+
+  .map {
+    top: 500px;
+    left: 50px;
+  }
+
+  .profile-timeline-container{
+    position: relative; 
+    display:flex;
+    text-align:left;
+  }
+
+  .timeline-line {
+    left: 40px;
+  }
+
+  .timeline-2005, .timeline-2006, .timeline-2007, .timeline-2008, .timeline-2009, .timeline-2010, .timeline-2011, .timeline-2012, .timeline-2013, .timeline-2014, .timeline-2015, .timeline-2016, .timeline-2017, .timeline-2018, .timeline-2020 {
+    position: absolute;
+    width:250px;
+    text-align: justify;
+    left: 90px;
+    right: 70px;
+    
+  }
+  .timeline-2015 {
+    top:1850px;
+  }
+  .timeline-2016 {
+    top: 2035px;
+  }
+
+  .timeline-2017 {
+    top: 2270px;
+  }
+  
+
+  .footcontainer-profile {
+    top: 4200px;
+  }
+
+  .product-icon {
+    left: 10px;
+    top: 245px;
+  }
+
+  .product-icon-img {
+    width: 220px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .product-content {
+    left: 40px;
+    right: 130px;
+  }
+
+  .product-wincore-framework {
+    height: 150px;
+    width: auto;
+  }
+  #banner1, #banner2, #banner3, #banner4 {
+    width: 250px;
+    height: auto;
+  }
+  
+  .footcontainer-product{
+    top: 3400px;
+  
+  }
+
+  .contact-content {
+    left: 50px;
+  }
+  .title-clients {
+    left: 50px;
+  }
+}
+
+
+
 
