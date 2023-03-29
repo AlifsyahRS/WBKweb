@@ -409,6 +409,7 @@ body {
   font-size:18px;
   left:63px;
   font-weight: 600;
+  width: 900px;
 }
 
 .client-list1, .client-list2 {
@@ -1567,9 +1568,7 @@ ul.menu li {
     left: 100px;
   }
 
-  .profile-content {
-    left: 20px;
-  }
+
 
   
   .map {
@@ -1693,6 +1692,108 @@ ul.menu li {
     top: 11500px;
   }
 
+}
+
+@media only screen and (max-width: 768px){
+
+  .experiences, .partnership, .events, .support, .contact {
+    display: none;
+  }
+
+  .profile-content {
+    left: 20px;
+  }
+
+  .mobile-dropdown, .mobile-dropdown-home{
+    display: flex;
+    position: absolute;
+    top: 80.5px;
+    left: 307px;
+    cursor: pointer;
+  }
+
+  .mobile-dropdown-home {
+    top: 77.7px;
+  }
+
+  .more {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size:12px;
+    font-weight: normal;
+  }
+  ul.menu li {
+    margin-bottom: 10px;
+    color:#1D1010;
+  }
+  .dropdown {
+    height:372px;
+  }
+
+    
+  .contact-side {
+    display:none;
+  }
+
+
+  
+  .footcontainer-normal, .footcontainer-product, .footcontainer-profile, .footcontainer-exp, .footcontainer-event, .footcontainer-client {
+    height: 600px;
+  }
+
+
+  .footer-about, .footer-portfolio, .footer-support {
+    left: 75px;
+  }
+
+  .footer-portfolio {
+    top: 230px;
+  }
+  .footer-support {
+    top: 370px;
+  }
+
+  .footer-logo {
+    top: 450px;
+    left: 400px;
+    height: 80px;
+    width: auto;
+  }
+
+  .event-timeline-img {
+    width: 100px;
+    height: auto;
+  }
+  .event-timeline-label{
+    width: 100px;
+  }
+  .event-timeline-subcontainer2{
+    left: 170px;
+  }
+
+  .product-icon{
+    top: 245px;
+  }
+  .product-icon-img {
+    width: 220px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  img.event-img{
+    width: 250px;
+    height: auto;
+  }
+
+  img.event-img-2 {
+    height: 190px;
+    width: auto;
+    object-fit: cover;
+    opacity: 1;
+    cursor: pointer;
+  }
 }
 
 
@@ -2094,38 +2195,13 @@ ul.menu li {
 
 @media only screen and (max-height:480px){
 
-  .experiences, .partnership, .events, .support, .contact {
-    display: none;
-  }
 
-  .mobile-dropdown, .mobile-dropdown-home{
-    display: flex;
-    position: absolute;
-    top: 80.5px;
-    left: 307px;
-    cursor: pointer;
-  }
 
-  .mobile-dropdown-home {
-    top: 77.7px;
+  .footcontainer-event {
+    top: 13000px;
   }
-
-  .more {
-    background: none;
-    border: none;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-size:12px;
-    font-weight: normal;
-  }
-  ul.menu li {
-    margin-bottom: 10px;
-    color:#1D1010;
-  }
-
-    
-  .contact-side {
-    display:none;
+  .footcontainer-product {
+    top: 2900px;
   }
 
 }
