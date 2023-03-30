@@ -355,7 +355,6 @@ body {
   top: 152px;
   font-size: 32px;
   font-weight: bolder;
-  width: 519px;
   height: 61px;
 }
 
@@ -2284,6 +2283,17 @@ ul.menu li {
 
   .footcontainer-product {
     top: 3800px;
+  }
+
+  .title-product, .title-profile, .title-clients {
+    font-size: 24px;
+  }
+  .clients-content {
+    font-size: 18px;
+  }
+
+  .subtitle-product {
+    font-size: 15px;
   }
 }
 
