@@ -2215,13 +2215,18 @@ ul.menu li {
     height: 60px;
     width: 330px;
   }
+
+  .support-login {
+    left: 0px;
+  }
+
+  .title-contact, .contact-content, .map {
+    left: 30px;
+  }
 }
 
 @media only screen and (max-width: 360px){
   
-
-
-
   .product-services {
     display:none;
   }
@@ -2276,10 +2281,6 @@ ul.menu li {
 
 @media only screen and (max-width: 320px){
 
-
-  
-
-
   .footer-logo {
     left: 150px;
   }
@@ -2305,7 +2306,7 @@ ul.menu li {
     top: 3800px;
   }
 
-  .title-product, .title-profile, .title-clients, .title-experience {
+  .title-product, .title-profile, .title-clients, .title-experience, .title-contact {
     font-size: 24px;
   }
   .subtitle-experience {
@@ -2320,7 +2321,7 @@ ul.menu li {
     font-size: 18px;
   }
 
-  .subtitle-product {
+  .subtitle-product, .contact-content {
     font-size: 15px;
   }
 
@@ -2332,10 +2333,25 @@ ul.menu li {
     font-size: 14px;
   }
   .exp-desc {
-    width: 210px;
+    width: 225px;
   }
   .exp-desc-container1, .exp-desc-container2, .exp-desc-container3, .exp-desc-container4, .exp-desc-container5, .exp-desc-container6, .exp-desc-container7, .exp-desc-container8, .exp-desc-container9, .exp-desc-container10, .exp-desc-container11, .exp-desc-container12, .exp-desc-container13, .exp-desc-container14, .exp-desc-container15, .exp-desc-container16, .exp-desc-container17, .exp-desc-container18, .exp-desc-container19, .exp-desc-container20, .exp-desc-container21, .exp-desc-container22, .exp-desc-container23, .exp-desc-container24, .exp-desc-container25 {
     left: 55px;
+  }
+
+  .title-contact, .contact-content {
+    left: 15px;
+  }
+  .map {
+    top: 442px;
+    left: 8px;
+  }
+
+  .title-contact {
+    top: 152px;
+  }
+  .contact-content{
+    top: 232px;
   }
 }
 
