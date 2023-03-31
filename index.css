@@ -160,6 +160,7 @@ body {
 }
 .contact,
 .support {
+  top: 71px;
   left: 618px;
   width: 44px;
 }
@@ -1719,13 +1720,13 @@ ul.menu li {
   .mobile-dropdown, .mobile-dropdown-home{
     display: flex;
     position: absolute;
-    top: 80.5px;
-    left: 227px;
+    top: 82.5px;
+    left: 247px;
     cursor: pointer;
   }
 
   .mobile-dropdown-home {
-    top: 77.7px;
+    top: 79px;
   }
   
   .experiences, .partnership, .events, .contact, .product-services {
@@ -1737,7 +1738,7 @@ ul.menu li {
     border: none;
     color: #FFFFFF;
     cursor: pointer;
-    font-size:12px;
+    font-size:11px;
     font-weight: normal;
   }
   ul.menu li {
@@ -1841,29 +1842,9 @@ ul.menu li {
   }
 
   .support {
-    left:162px;
+    left:173px;
   }
 
-  .mobile-dropdown, .mobile-dropdown-home{
-    display: flex;
-    position: absolute;
-    top: 80.5px;
-    left: 227px;
-    cursor: pointer;
-  }
-
-  .mobile-dropdown-home {
-    top: 77.7px;
-  }
-
-  .more {
-    background: none;
-    border: none;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-size:12px;
-    font-weight: normal;
-  }
 
 
 
@@ -2258,7 +2239,7 @@ ul.menu li {
   }
 
   .mobile-dropdown, .mobile-dropdown-home {
-    left:162px;
+    left:176px;
   }
   
   .profile-content {
