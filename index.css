@@ -910,7 +910,7 @@ strong.product-head {
 
 .footcontainer-event {
   position:absolute;
-  top: 10000px;
+  top: 11100px;
 }
 
 .footer-about, .footer-portfolio, .footer-support, .footer-contact {
@@ -1477,7 +1477,7 @@ ul.menu li {
   }
 
   .footcontainer-event {
-    top: 10500px;
+    top: 11500px;
   }
 
   #visible-mobile {
@@ -1533,7 +1533,7 @@ ul.menu li {
   }
 
   .footcontainer-event {
-    top: 10800px;
+    top: 11700px;
   }
 
   .event-timeline-subcontainer2{
@@ -1696,7 +1696,7 @@ ul.menu li {
   }
 
   .footcontainer-event {
-    top: 11500px;
+    top: 12200px;
   }
 
 }
@@ -1807,6 +1807,11 @@ ul.menu li {
     object-fit: cover;
     opacity: 1;
     cursor: pointer;
+  }
+
+  
+  .footcontainer-event {
+    top: 12700px;
   }
 }
 
@@ -2123,7 +2128,7 @@ ul.menu li {
   }
 
   .footcontainer-event {
-    top: 15500px;
+    top: 16600px;
   }
 
   .event-2020-text, .event-2018-text, .event-2016-text, .event-2015-text, .event-2014-text, .event-2013-text, .event-2011-text, .event-2010-text, .event-2009-text, .event-2008-text, .event-2007-text, .event-2006-text {
@@ -2224,7 +2229,7 @@ ul.menu li {
   }
 
   .footcontainer-event {
-    top: 16150px;
+    top: 17100px;
   }
   .event-timeline-subcontainer2{
     left: 130px;
@@ -2377,7 +2382,7 @@ ul.menu li {
   }
 
   .footcontainer-event {
-    top: 16350px;
+    top: 17550px;
   }
 
   .event-timeline-img {
@@ -2393,7 +2398,7 @@ ul.menu li {
 
 
   .footcontainer-event {
-    top: 13000px;
+    top: 15400px;
   }
   .footcontainer-product {
     top: 2900px;
@@ -2402,3 +2407,16 @@ ul.menu li {
 
 }
 
+@media only screen and (max-height:480px) and (orientation: landscape){
+
+
+
+  .footcontainer-event {
+    top: 15400px;
+  }
+  .footcontainer-product {
+    top: 2900px;
+  }
+
+
+}
