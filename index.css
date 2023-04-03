@@ -1370,17 +1370,22 @@ img.event-img-2 {
   opacity: 1;
 }
 
-.menu {
+.menu, .menu2 {
   position: absolute;
+  display: inline;
   top: 15px;
   list-style: none;
   font-size: 15px;
   text-align: left;
 }
 
-ul.menu li {
+ul.menu li, ul.menu2 li {
   margin-bottom: 20px;
   color:#1D1010;
+}
+
+.menu2 {
+  left: 250px;
 }
 
 .title-mobile {display:none}
@@ -1723,6 +1728,9 @@ ul.menu li {
     left: 247px;
     cursor: pointer;
   }
+  .menu2 {
+    display: none;
+  }
 
   .mobile-dropdown-home {
     top: 79px;
@@ -1740,7 +1748,7 @@ ul.menu li {
     font-size:11px;
     font-weight: normal;
   }
-  ul.menu li {
+  ul.menu li, ul.menu2 li {
     margin-bottom: 10px;
     color:#1D1010;
   }
@@ -2389,23 +2397,20 @@ ul.menu li {
     width: 85px;
     height: auto;
   }
+
+  .title-support {
+    top: 172px;
+  }
+  .support-login {
+    top: 240px;
+  }
+  .support-copyright {
+    top: 390px;
+  }
 }
 
 
 
-@media only screen and (max-height:480px) and (orientation: landscape){
-
-
-
-  .footcontainer-event {
-    top: 15400px;
-  }
-  .footcontainer-product {
-    top: 2900px;
-  }
-
-
-}
 
 @media only screen and (max-height:480px) and (orientation: landscape){
 
@@ -2414,6 +2419,16 @@ ul.menu li {
   }
   .footcontainer-product {
     top: 2900px;
+  }
+
+  .title-support {
+    top: 142px;
+  }
+  .support-login {
+    top: 210px;
+  }
+  .support-copyright {
+    top: 360px;
   }
 
 }
@@ -2436,13 +2451,53 @@ ul.menu li {
   }
 
 
-  .menu {
+  .menu, .menu2 {
     top: 0px;
+  }
+
+  .exp-content{
+    text-align: justify;
+    left: 50px;
+    right: 50px;
+  }
+
+  .product-content {
+    left: 50px;
+    right: 50px;
+  }
+  .product-wincore-framework {
+    height: 230px;
+    width: auto;
+  }
+
+  .event-2020-imgcontainer, .event-2018-imgcontainer, .event-2016-imgcontainer, .event-2015-imgcontainer, .event-2014-imgcontainer, .event-2013-imgcontainer, .event-2011-imgcontainer, .event-2010-imgcontainer, .event-2009-imgcontainer, .event-2008-imgcontainer, .event-2007-imgcontainer, .event-2006-imgcontainer {
+    left: 210px; 
+  }
+  .event-content {
+    left: 50px;
+    right: 50px;
   }
 
 }
 
 @media only screen and (max-height:480px) and (max-width:600px) and (orientation: landscape){
+
+  .menu, .menu2 {
+    top: 15px;
+  }
+  ul.menu li, ul.menu2 li {
+    margin-bottom: 15px;
+  }
+  #client-dd, #event-dd, #support-dd, #contact-dd {
+    display: none;
+  }
+  .menu2 {
+    display: block;
+  }
+
+
+
+
 
   .footcontainer-event {
     top: 15300px;
@@ -2457,7 +2512,24 @@ ul.menu li {
   .event-timeline {
     left: 20px;
   }
-  .event-2020-imgcontainer, .event-2018-imgcontainer, .event-2016-imgcontainer, .event-2015-imgcontainer, .event-2014-imgcontainer, .event-2013-imgcontainer, .event-2011-imgcontainer, .event-2010-imgcontainer, .event-2009-imgcontainer, .event-2008-imgcontainer, .event-2007-imgcontainer, .event-2006-imgcontainer {
-    left: 180px; 
+
+
+  .exp-desc-title{
+    display:none;
+  }
+  .exp-desc-title-short{
+    display: inline;
+  }
+
+  .exp-desc {
+    width: 410px;
+  }
+
+  .timeline-2005, .timeline-2006, .timeline-2007, .timeline-2008, .timeline-2009, .timeline-2010, .timeline-2011, .timeline-2012, .timeline-2013, .timeline-2014, .timeline-2015, .timeline-2016, .timeline-2017, .timeline-2018, .timeline-2020{
+    left: 50px;
+  }
+
+  .map {
+    left: 55px;
   }
 }
