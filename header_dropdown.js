@@ -1,14 +1,24 @@
 
 var input = document.getElementById("more");
-var dropdown = document.getElementById("dropdown");  // 
+var dropdown = document.getElementById("dropdown"); 
+var span = document.getElementById("close-dropdown");
+
+
+function close() {
+    dropdown.style.display = "none";
+    input.style.color = "#FFFFFF";
+}
 
 
 input.onclick = function(){
     if (dropdown.style.display == "none"){
         dropdown.style.display = "flex";
-        this.style.color = "#32E57A";
+        input.style.color = "#32E57A";
     } else {
-        dropdown.style.display = "none";
-        this.style.color = "#FFFFFF";
+        close();
     }
+}
+
+span.onclick = function(){
+    close();
 }

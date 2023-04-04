@@ -1243,7 +1243,7 @@ img.event-img-2 {
   font-size:15px;
 }
 
-.close {
+.close, .close-bottom {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -1252,6 +1252,11 @@ img.event-img-2 {
   font-weight: bold;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.close-bottom {
+  top: 0px;
+  font-size: 35px;
 }
 
 .about-image {

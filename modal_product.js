@@ -65,7 +65,7 @@ bannerFour.onclick = function() {
 }
 
 
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementById("close-modal");
 span.onclick = function() {
     modal.style.display = "none";
     header.style.display = "block";
