@@ -644,7 +644,7 @@ body {
   position: absolute;
   top: 1850px;
   font-size:13px;
-  text-align: left;
+  text-align: justify;
   color: #000;
 }
 
@@ -1705,6 +1705,8 @@ ul.menu li, ul.menu2 li {
 
 @media only screen and (max-width: 768px){
 
+
+
   .experiences, .partnership, .events, .contact {
     display: none;
   }
@@ -1820,8 +1822,12 @@ ul.menu li, ul.menu2 li {
 }
 
 @media only screen and (max-width:540px){
-  .event-2020-imgcontainer, .event-2018-imgcontainer, .event-2016-imgcontainer, .event-2015-imgcontainer, .event-2014-imgcontainer, .event-2013-imgcontainer, .event-2011-imgcontainer, .event-2010-imgcontainer, .event-2009-imgcontainer, .event-2008-imgcontainer, .event-2007-imgcontainer, .event-2006-imgcontainer {
-    left: 190px; 
+  .event-2020-text, .event-2018-text, .event-2016-text, .event-2015-text, .event-2014-text, .event-2013-text, .event-2011-text, .event-2010-text, .event-2009-text, .event-2008-text, .event-2007-text, .event-2006-text {
+    left: 0px;
+  }
+
+  .event-2020-imgcontainer, .event-2018-imgcontainer, .event-2016-imgcontainer, .event-2015-imgcontainer, .event-2014-imgcontainer, .event-2013-imgcontainer, .event-2011-imgcontainer, .event-2010-imgcontainer, .event-2009-imgcontainer, .event-2008-imgcontainer, .event-2007-imgcontainer, .event-2006-imgcontainer{
+    left: 170px;
   }
   .footcontainer-event {
     top: 14500px;
@@ -1831,7 +1837,7 @@ ul.menu li, ul.menu2 li {
     right:50px;
   }
   .exp-desc {
-    width: 370px;
+    width: 340px;
   }
   .exp-desc-title{
     display: none;
@@ -1863,6 +1869,18 @@ ul.menu li, ul.menu2 li {
   .footcontainer-product{
     top: 3000px;
   }
+
+  .footer-logo {
+    top: 450px;
+    left: 350px;
+    height: 80px;
+    width: auto;
+  }
+
+  .map {
+    left: 63px;
+  }
+
 }
 
 
