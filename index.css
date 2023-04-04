@@ -1321,42 +1321,34 @@ img.event-img-2 {
   color:#3ea5bc;
 }
 
-#home-dd, #event-dd {
-  -webkit-tap-highlight-color: #3ea5bc;
+.dropdown-link {
+  -webkit-tap-highlight-color: #5acee8;
 }
 
 #profile-header:hover, #footer-profile:hover {
   color:#32E57A;
 }
 
-#profile-dd {
-  -webkit-tap-highlight-color: #32E57A;
-}
+
 
 #product-header:hover, #support-header:hover, #footer-product:hover, #footer-support:hover {
   color: 	#FFFF00;
 }
 
-#product-dd, #support-dd {
-  -webkit-tap-highlight-color: #FFFF00;
-}
+
 
 
 #exp-header:hover, #contact-header:hover, #footer-exp:hover, #exp-dd:hover, #contact-dd:hover {
   color: #FFA500;
 }
 
-#exp-dd, #contact-dd, #contact-dd2 {
-  -webkit-tap-highlight-color: #FFA500;
-}
+
 
 #client-header:hover, #footer-client:hover {
   color: #8B008B;
 }
 
-#client-dd {
-  -webkit-tap-highlight-color: #8B008B;
-}
+
 
 .dropdown {
   display: none;
@@ -1784,6 +1776,12 @@ ul.menu li, ul.menu2 li {
     width: auto;
   }
 
+  .event-content {
+    left: 50px;
+    right: 50px;
+  }
+
+
   .event-timeline-img {
     width: 100px;
     height: auto;
@@ -1809,13 +1807,6 @@ ul.menu li, ul.menu2 li {
     height: auto;
   }
 
-  img.event-img-2 {
-    height: 190px;
-    width: auto;
-    object-fit: cover;
-    opacity: 1;
-    cursor: pointer;
-  }
 
   
   .footcontainer-event {
@@ -1823,6 +1814,51 @@ ul.menu li, ul.menu2 li {
   }
 }
 
+@media only screen and (max-width:540px){
+  .event-2020-imgcontainer, .event-2018-imgcontainer, .event-2016-imgcontainer, .event-2015-imgcontainer, .event-2014-imgcontainer, .event-2013-imgcontainer, .event-2011-imgcontainer, .event-2010-imgcontainer, .event-2009-imgcontainer, .event-2008-imgcontainer, .event-2007-imgcontainer, .event-2006-imgcontainer {
+    left: 190px; 
+  }
+  .footcontainer-event {
+    top: 14500px;
+  }
+  .exp-content {
+    left:50px;
+    right:50px;
+  }
+  .exp-desc {
+    width: 370px;
+  }
+  .exp-desc-title{
+    display: none;
+  }
+  .exp-desc-title-short {
+    display: block;
+  }
+
+  .timeline-2005, .timeline-2006, .timeline-2007, .timeline-2008, .timeline-2009, .timeline-2010, .timeline-2011, .timeline-2012, .timeline-2013, .timeline-2014, .timeline-2015, .timeline-2016, .timeline-2017, .timeline-2018, .timeline-2020 {
+    width: 320px;
+  }
+
+  .support-login, .title-support, .support-copyright{
+    left: 50px;
+  }
+  
+  .maxava-background {
+    width: 374px;
+  }
+
+  .product-content {
+    left: 50px;
+    right: 50px;
+  }
+  .product-wincore-framework {
+    height: 230px;
+    width: auto;
+  }
+  .footcontainer-product{
+    top: 3000px;
+  }
+}
 
 
 @media only screen and (max-width:480px){
@@ -2113,10 +2149,6 @@ ul.menu li, ul.menu2 li {
     top: 3500px;
   }
 
-  .event-content {
-    left: 50px;
-    right: 50px;
-  }
 
   img.event-img{
     width: 250px;
@@ -2355,6 +2387,14 @@ ul.menu li, ul.menu2 li {
   .clients-content {
     font-size: 18px;
   }
+  .maxava-background {
+    height: 53px;
+    width: 280px;
+  }
+  .clients-img {
+    height: 50px;
+    width: auto
+  }
 
   .subtitle-product, .contact-content {
     font-size: 15px;
@@ -2410,15 +2450,49 @@ ul.menu li, ul.menu2 li {
 }
 
 
+@media only screen and (max-height:540px) and (orientation: landscape) {
+  .footcontainer-event {
+    top: 13000px;
+  }
 
+  .footcontainer-product {
+    top: 2900px;
+  }
+
+  .title-support {
+    top: 172px;
+  }
+  .support-login {
+    top: 240px;
+  }
+  .support-copyright {
+    top: 390px;
+  }
+
+  .exp-content {
+    left:80px;
+    right: 80px;
+  }
+}
 
 @media only screen and (max-height:480px) and (orientation: landscape){
 
+  .menu, .menu2 {
+    top: 15px;
+  }
+  ul.menu li, ul.menu2 li {
+    margin-bottom: 15px;
+  }
+  #client-dd, #event-dd, #support-dd, #contact-dd {
+    display: none;
+  }
+  .menu2 {
+    display: block;
+  }
+
+
   .footcontainer-event {
     top: 12300px;
-  }
-  .footcontainer-product {
-    top: 2900px;
   }
 
   .title-support {
@@ -2482,18 +2556,6 @@ ul.menu li, ul.menu2 li {
 
 @media only screen and (max-height:480px) and (max-width:600px) and (orientation: landscape){
 
-  .menu, .menu2 {
-    top: 15px;
-  }
-  ul.menu li, ul.menu2 li {
-    margin-bottom: 15px;
-  }
-  #client-dd, #event-dd, #support-dd, #contact-dd {
-    display: none;
-  }
-  .menu2 {
-    display: block;
-  }
 
 
 
