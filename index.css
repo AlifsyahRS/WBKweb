@@ -973,6 +973,7 @@ a.footer-link, a.dropdown-link{
 }
 
 a.dropdown-link {
+  text-decoration: none;
   color: #ffffff;
 }
 
@@ -1819,6 +1820,11 @@ ul.menu li, ul.menu2 li {
   .footcontainer-event {
     top: 12700px;
   }
+
+  .clients-content {
+    left: 30px;
+    right: 30px;
+  }
 }
 
 @media only screen and (max-width:540px){
@@ -1879,6 +1885,13 @@ ul.menu li, ul.menu2 li {
 
   .map {
     left: 63px;
+  }
+
+  .subtitle-home {
+    top: 430px;
+  }
+  .learn-more-about-us-wrapper {
+    top: 532px;
   }
 
 }
@@ -2296,6 +2309,15 @@ ul.menu li, ul.menu2 li {
   }
   .event-timeline-subcontainer2{
     left: 130px;
+  }
+
+  .timeline-2005, .timeline-2006, .timeline-2007, .timeline-2008, .timeline-2009, .timeline-2010, .timeline-2011, .timeline-2012, .timeline-2013, .timeline-2014, .timeline-2015, .timeline-2016, .timeline-2017, .timeline-2018, .timeline-2020 {
+    width: 220px;
+    
+  }
+
+  .exp-desc {
+    width: 230px;
   }
 }
 
