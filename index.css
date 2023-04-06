@@ -34,7 +34,27 @@ body {
   opacity: 1;
 }
 
+#btnTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 40px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(0, 0, 0, 0.6); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+  height: 50px;
+  width: 50px;
+}
 
+#btnTop:hover {
+  background-color: rgba(48, 47, 47, 0.4); /* Set a background color */
+}
 
 .half-background {
   position: absolute;
