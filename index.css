@@ -56,6 +56,32 @@ body {
   background-color: rgba(48, 47, 47, 0.4); /* Set a background color */
 }
 
+.dropdown-scroll {
+  display: none;
+  position: fixed;
+  justify-content: center;
+  top: 40px;
+  right: 50px;
+  border: none;
+  outline: none;
+  background-color: rgba(50, 49, 49, 0.9);
+  border-radius: 20%;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  z-index: 99;
+}
+
+.dropdown-line {
+  position: relative;
+  left: 7px;
+  top: 5px;
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+}
+
 .half-background {
   position: absolute;
   top: 105px;
@@ -892,7 +918,7 @@ strong.product-head {
 }
 
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
@@ -1726,7 +1752,9 @@ ul.menu li, ul.menu2 li {
 @media only screen and (max-width: 768px){
 
 
-
+  .header {
+    position: sticky;
+  }
   .experiences, .partnership, .events, .contact {
     display: none;
   }

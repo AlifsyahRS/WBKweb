@@ -37,8 +37,8 @@
                 <div class="support"><a id="support-header" class="newpage" href="support.html">Support</a></div>
                 <div class="contact"><a id="contact-header" class="newpage" href="contact.html">Contact</a></div>
                 <div class="mobile-dropdown"><button id="more" class="more"><span>More &#x25BC;</span></button></div>
-                <div id="dropdown" class="dropdown">
-                  <ul class="menu">
+                <div id="dropdown" class="dropdown" style="display: none">
+                  <ul id="menu" class="menu">
                     <li><a id="home-dd" class="dropdown-link" href="index.html">Home</a></li>
                     <li><a id="profile-dd" class="dropdown-link" href="profile.html">Profile</a></li>
                     <li><a id="product-dd" class="dropdown-link" href="products.html">Products & Services</a></li>
@@ -48,7 +48,7 @@
                     <li><a id="support-dd" class="dropdown-link" href="support.html">Support</a></li>
                     <li><a id="contact-dd" class="dropdown-link" href="contact.html">Contact</a></li>
                   </ul>
-                  <ul class="menu2">
+                  <ul id="menu2" class="menu2">
                     <li><a class="dropdown-link" href="clients.html">Clients & Partners</a></li>
                     <li><a class="dropdown-link" href="events.html">Events</a></li>
                     <li><a class="dropdown-link" href="support.html">Support</a></li>
@@ -73,11 +73,14 @@
               </div>
 
               <button onclick="topFunction()" id="btnTop" title="go to top"><span>&#8679;</span></button>
-
             <div class="background-1 src1"></div>
-              
+            <div id="dropScroll" class="dropdown-scroll">
+                <div class="dropdown-line"></div>
+                <div class="dropdown-line"></div>
+                <div class="dropdown-line"></div>
+            </div>
             <div class="title">Events</div>
-            <div id="myModal" class="modal">
+            <div id="myModal" class="modal" style="display: none">
                 <span class="close">&times;</span>
                 <img class="modal-content" id="img01">
                 <div id="caption"></div>
@@ -477,4 +480,3 @@ This was designed to be 'an integrated, real-time online core banking system run
 </html>
 <script src="script/modal_event.js"></script>
 <script src="script/header_dropdown.js"></script>
-<script src="script/scroll_top.js"></script>

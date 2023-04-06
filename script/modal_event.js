@@ -1,5 +1,7 @@
 var modal = document.getElementById("myModal");
 var header = document.getElementById("header");
+var btnTop = document.getElementById("btnTop");
+var dropScroll = document.getElementById("dropScroll");
 
 const eventImg = [].slice.call(document.getElementsByClassName("event-img"));
 const eventImgLeft = [].slice.call(document.getElementsByClassName("event-img-left"));
@@ -15,12 +17,21 @@ var wincoreBannerTwo = document.getElementById("banner2");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
+
+function hideButtons (){
+    if (btnTop.style.display == "block" || dropScroll.style.display == "block") {
+        dropScroll.style.display = "none";
+        btnTop.style.display = "none";
+    }
+}
+
 eventImg.forEach(img => {
     img.onclick = function(){
         modal.style.display = "block";
         header.style.display ="none";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
+        hideButtons();
     }
 });
 
@@ -31,6 +42,7 @@ eventImgLeft.forEach(img => {
         header.style.display ="none";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
+        hideButtons();
     }
 });
 
@@ -40,6 +52,7 @@ eventImgRight.forEach(img => {
         header.style.display ="none";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
+        hideButtons();
     }
 });
 
@@ -49,6 +62,7 @@ eventImgTimeline.forEach(img => {
         header.style.display ="none";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
+        hideButtons();
     }
 });
 
@@ -58,6 +72,7 @@ eventImgOne.forEach(img => {
         header.style.display ="none";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
+        hideButtons();
     }
 });
 
@@ -67,6 +82,7 @@ eventImgTwo.forEach(img => {
         header.style.display ="none";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
+        hideButtons();
     }
 });
 
@@ -76,6 +92,7 @@ eventImgThree.forEach(img => {
         header.style.display ="none";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
+        hideButtons();
     }
 });
 
