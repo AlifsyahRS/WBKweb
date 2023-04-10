@@ -37,8 +37,8 @@ body {
 #btnTop {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 40px; /* Place the button at the bottom of the page */
-  right: 50px; /* Place the button 30px from the right */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -60,8 +60,8 @@ body {
   display: none;
   position: fixed;
   justify-content: center;
-  top: 40px;
-  right: 50px;
+  top: 20px;
+  left: 20px;
   border: none;
   outline: none;
   background-color: rgba(50, 49, 49, 0.9);
@@ -1752,9 +1752,7 @@ ul.menu li, ul.menu2 li {
 @media only screen and (max-width: 768px){
 
 
-  .header {
-    position: sticky;
-  }
+
   .experiences, .partnership, .events, .contact {
     display: none;
   }
@@ -1878,6 +1876,11 @@ ul.menu li, ul.menu2 li {
 }
 
 @media only screen and (max-width:540px){
+
+  .header {
+    position: sticky;
+  }
+
   .event-2020-text, .event-2018-text, .event-2016-text, .event-2015-text, .event-2014-text, .event-2013-text, .event-2011-text, .event-2010-text, .event-2009-text, .event-2008-text, .event-2007-text, .event-2006-text {
     left: 0px;
   }
@@ -2546,6 +2549,11 @@ ul.menu li, ul.menu2 li {
 
 
 @media only screen and (max-height:540px) and (orientation: landscape) {
+
+  .header {
+    position: sticky;
+  }
+
   .footcontainer-event {
     top: 13000px;
   }

@@ -28,7 +28,8 @@ function scrollFunction() {
     } else {
         btnTop.style.display = "none";
     }
-    if ((document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) && dropdown.style.display == "none" && window.innerWidth <= 768) {
+    
+    if ((document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) && dropdown.style.display == "none" && (window.innerWidth <= 568 || (window.innerHeight <=568 && screen.orientation.type.includes("landscape")))) {
         dropScroll.style.display = "block";
     } else {
         dropScroll.style.display = "none";
