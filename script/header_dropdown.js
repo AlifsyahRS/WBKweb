@@ -10,7 +10,7 @@ var btnTop = document.getElementById("btnTop");
 function close() {
     dropdown.style.display = "none";
     input.style.color = "#FFFFFF";
-    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400){
+    if (document.body.scrollTop > 950 || document.documentElement.scrollTop > 950){
         dropScroll.style.display = "block";
         btnTop.style.display = "block";
     }
@@ -23,20 +23,20 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
 
-    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    if (document.body.scrollTop > 950 || document.documentElement.scrollTop > 950) {
         btnTop.style.display = "block";
     } else {
         btnTop.style.display = "none";
     }
     
-    if ((document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) && dropdown.style.display == "none" && (window.innerWidth <= 568 || (window.innerHeight <=568 && screen.orientation.type.includes("landscape")))) {
+    if ((document.body.scrollTop > 950 || document.documentElement.scrollTop > 950) && dropdown.style.display == "none" && (window.innerWidth <= 568 || (window.innerHeight <=568 && screen.orientation.type.includes("landscape")))) {
         dropScroll.style.display = "block";
     } else {
         dropScroll.style.display = "none";
     }
 
 
-    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    if (document.body.scrollTop > 950 || document.documentElement.scrollTop > 950) {
         dropdown.style.top = "0px";
         if (window.innerHeight <= 540 && screen.orientation.type.includes("landscape")){
             menu.style.top = "25px";
