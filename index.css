@@ -1981,8 +1981,6 @@ ul.menu li, ul.menu2 li {
   }
 
 
-
-
   .clients-content {
     left: 10px;
     right: 10px
@@ -1990,25 +1988,25 @@ ul.menu li, ul.menu2 li {
 
 
   .title-home {
-    top: 322px;
+    top: 242px;
     left:40px;
     right: 40px;
-    font-size: 30px;
+    font-size: 32px;
   }
   .title-profile {
     top: 200px;
-    font-size: 30px;
+    font-size: 32px;
   }
   .title-product {
     top: 141px;
-    font-size: 30px;
+    font-size: 32px;
     left: 40px;
   }
   .subtitle-home {
     left: 40px;
     right: 40px;
-    font-size: 18px;
-    top: 450px;
+    font-size: 20px;
+    top: 380px;
 
   }
   .subtitle-product{
@@ -2020,20 +2018,20 @@ ul.menu li, ul.menu2 li {
   .title-clients {
     top: 212px;
     left: 30px;
-    font-size: 30px;
+    font-size: 32px;
     text-align: left;
   }
   .title-contact {
     left: 50px;
-    font-size: 30px;
+    font-size: 32px;
   }
   .title-experience {
     top: 172px;
     left: 50px;
-    font-size: 30px;
+    font-size: 32px;
   }
   .title {
-    font-size: 30px;
+    font-size: 32px;
     left: 50px;
   }
 
@@ -2052,11 +2050,11 @@ ul.menu li, ul.menu2 li {
   }
 
   .learn-more-about-us {
-    font-size: 15px;
+    font-size: 19px;
   }
   .learn-more-about-us-wrapper {
     left: 40px;
-    top: 562px;
+    top: 512px;
   }
 
 
@@ -2200,7 +2198,7 @@ ul.menu li, ul.menu2 li {
     left: 4px;
   }
   .title-support {
-    font-size: 30px;
+    font-size: 32px;
   }
   .support-copyright {
     font-size: 14px;
@@ -2444,7 +2442,23 @@ ul.menu li, ul.menu2 li {
 
 @media only screen and (max-width: 320px){
 
+  .title-home {
+    top: 202px;
+    font-size: 30px;
+  }
 
+  .subtitle-home {
+    top: 332px;
+    font-size: 18px;
+  }
+
+  .learn-more-about-us {
+    font-size: 15px;
+  }
+
+  .learn-more-about-us-wrapper{
+    top:452px;
+  }
 
   .footer-logo {
     left: 150px;
@@ -2550,6 +2564,19 @@ ul.menu li, ul.menu2 li {
 
 @media only screen and (max-height:540px) and (orientation: landscape) {
 
+
+  .title-home {
+    top: 200px;
+  }
+
+  .subtitle-home {
+    top: 312px;
+  }
+
+  .learn-more-about-us-wrapper{
+    top: 422px;
+  }
+
   .header {
     position: sticky;
   }
@@ -2579,6 +2606,20 @@ ul.menu li, ul.menu2 li {
 }
 
 @media only screen and (max-height:480px) and (orientation: landscape){
+
+
+
+  .title-home {
+    top: 170px;
+  }
+
+  .subtitle-home {
+    top: 282px;
+  }
+
+  .learn-more-about-us-wrapper{
+    top: 392px;
+  }
 
   .menu, .menu2 {
     top: 15px;
