@@ -259,7 +259,7 @@ body {
   cursor: pointer;
   border: 0;
   position: absolute;
-  background-color: #3bc752;
+  background-color: rgb(0, 144, 72);
   padding: var(--padding-sm) var(--padding-md);
   top: 19px;
   right: 34px; 
