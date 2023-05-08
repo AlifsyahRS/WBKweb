@@ -388,6 +388,10 @@ body {
   top: 202px;
 }
 
+.title-contact {
+  left: 150px;
+}
+
 
 .title-product {
   position: absolute;
@@ -434,9 +438,9 @@ body {
 .contact-content {
   position: absolute;
   font-size: 16px;
-  left:63px;
+  left:150px;
   text-align:left;
-  top: 300px;
+  top: 280px;
   color: #1D1010;
 }
 
@@ -473,7 +477,7 @@ body {
   width:600px;
 }
 
-.subtitle-profile, .client-list1, .contact-content {
+.subtitle-profile, .client-list1 {
   left:63px;
 }
 
@@ -864,7 +868,7 @@ span.timeline-content {
 
 .map {
   position:absolute;
-  top: 220px;
+  top: 240px;
   right: 250px;
   align-items:left;
 }
@@ -1457,7 +1461,26 @@ ul.menu li, ul.menu2 li {
   text-align: left;
 }
 
+img.contact-icon {
+  object-fit:cover;
+  width:35px;
+  height:35px;
+  
+}
 
+div.contact-info {
+  height:35px;
+}
+
+.contact-info-text {
+  position: relative;
+  font-weight: 600;
+  margin: auto;
+  left: 15px;
+  display: inline-block;
+  vertical-align: center;
+  line-height: normal;
+}
 
 @media only screen and (max-width: 1280px){
   body {
@@ -1631,7 +1654,7 @@ ul.menu li, ul.menu2 li {
 
   
   .map {
-    top: 550px;
+    top: 620px;
     right: 320px;
   }
 
@@ -2025,6 +2048,7 @@ ul.menu li, ul.menu2 li {
   .title-contact {
     left: 50px;
     font-size: 32px;
+    top: 150px;
   }
   .title-experience {
     top: 172px;
@@ -2068,7 +2092,7 @@ ul.menu li, ul.menu2 li {
   }
 
   .map {
-    top: 530px;
+    top: 550px;
     left: 50px;
   }
 
@@ -2144,7 +2168,7 @@ ul.menu li, ul.menu2 li {
   }
 
   .contact-content {
-    top: 280px;
+    top: 230px;
     left: 50px;
   }
   .footcontainer-client {
@@ -2531,7 +2555,7 @@ ul.menu li, ul.menu2 li {
     left: 15px;
   }
   .map {
-    top: 442px;
+    top: 542px;
     left: 8px;
   }
 
