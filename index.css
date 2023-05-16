@@ -1311,6 +1311,11 @@ img.event-img-2 {
   font-size: 35px;
 }
 
+.close {
+  top: 30px;
+  right: 50px;
+}
+
 .about-image {
   position: absolute;
   left: 50px;
