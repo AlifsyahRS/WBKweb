@@ -1468,6 +1468,8 @@ ul.menu li, ul.menu2 li {
 }
 
 img.contact-icon {
+  position:absolute;
+  left:0;
   object-fit:cover;
   width:35px;
   height:35px;
@@ -1476,13 +1478,20 @@ img.contact-icon {
 
 div.contact-info {
   height:35px;
+  position: relative;
+}
+
+.contact-info-img {
+  position: absolute;
+  left:0;
 }
 
 .contact-info-text {
-  position: relative;
+  position: absolute;
+  left: 60px;
+  top: 7px;
   font-weight: 600;
   margin: auto;
-  left: 15px;
   display: inline-block;
   vertical-align: center;
   line-height: normal;
