@@ -112,13 +112,13 @@ body {
 }
 
 .collage {
-  background-image: url("public/collage.png");
+  background-image: url("images/collage.png");
 }
 .src1 {
-  background-image: url("public/white-background.png")
+  background-image: url("images/white-background.png")
 }
 .src2 {
-  background-image: url("public/background2.png");
+  background-image: url("images/background2.png");
 }
 
 .home-child {
@@ -940,7 +940,7 @@ strong.product-head {
 
 
 .footcontainer-client {
-  top: 1550px;
+  top: 550px;
 }
 
 
@@ -1516,7 +1516,7 @@ div.contact-info {
   }
 
   .src2 {
-    background-image: url("public/background2-mobile.png")
+    background-image: url("images/background2-mobile.png")
   }
 
   .event-timeline-subcontainer3{
@@ -2187,7 +2187,7 @@ div.contact-info {
     left: 50px;
   }
   .footcontainer-client {
-    top: 1550px;
+    top: 550px;
   }
   
   .clients-img{
